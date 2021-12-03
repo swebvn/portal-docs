@@ -84,9 +84,29 @@ Danh sách các sản phẩm trong đơn hàng.
 - `Tracking code`: mã tracking
 - `Private note`: internal note
 
+## Invoice
+
+Nếu đơn hành thanh toán trả sau, thông tin invoice của đơn hàng sẽ hiện ở section này. Xem thêm tại [Invoice](/invoices/invoice-properties.md).
+
+
 ##  Statuses
 
 Trạng thái của đơn hàng được lấy từ Woo bao gồm:
-- `onhold`
-- `processing`
-- `completed`
+
+- `OnHold`
+- `Pending`
+- `Processing`
+- `Completed`
+- `Cancelled`
+- `Refunded`
+- `Failed`
+- `Trash`
+
+và 2 trạng thái custom trên portal dành cho việc vận hành.
+
+- `Partial Shipped`: đơn hàng được ship 1 phần
+- `Shipped`: đơn hàng đã được ship toàn bộ
+
+::: danger
+Vui lòng không sử dụng trạng thái custom nào khác ngoài 8 trạng thái nào khác trên Woo, nếu không thì đơn hàng sẽ không được đồng bộ.
+:::
