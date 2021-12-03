@@ -1,17 +1,6 @@
 module.exports = {
     title: 'Portal docs',
     description: 'Portal documentation about .......',
-    head: [
-    [
-      "link",
-      {
-        href:
-          "https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,800,800i,900,900i",
-        rel: "stylesheet",
-        type: "text/css"
-      }
-    ]
-    ],
     themeConfig: {
         sidebar: [
             {
@@ -27,7 +16,8 @@ module.exports = {
                 text: 'Orders',
                 children: prefix('orders', [
                     'order-properties.md',
-                    'order-operation.md'
+                    'order-operation.md',
+                    'sync-orders.md'
                 ])
             },
             {
