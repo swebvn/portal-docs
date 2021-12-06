@@ -23,7 +23,8 @@ module.exports = {
             {
                 text: 'Invoices',
                 children: prefix('invoices', [
-                    'invoice-properties.md'
+                    'invoice-properties.md',
+                    'invoice-functions.md'
                 ])
             },
 
