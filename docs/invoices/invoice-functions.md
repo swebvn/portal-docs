@@ -10,4 +10,6 @@ Chỉ cần click vào nút `Ignore` màu đỏ hoặc chọn trong action menu.
 
 Sometimes hệ thống sẽ không map những đơn hàng với lỗi như sai số về giá trị đơn hàng giữa các hệ thống, hay nhầm tên customer. Khi đó bạn có thể map invoice với đơn hàng bằng cách thủ công như sau.
 
+Chọn edit 1 `Paid` invoice và trạng thái `Unpaired` (chưa được map), sau đó tìm kiếm Order muốn map, sau đó chọn `Update Paid Invoice`.
 
+![](./img/manual-map-invoice.png)
