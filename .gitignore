@@ -1,4 +1,6 @@
 node_modules
 .temp
 .cache
+.gitig
+.DS_Store
 dist

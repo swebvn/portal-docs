@@ -14,4 +14,4 @@ Thông tin invoice được đồng bộ về từ Envoice, được phân loạ
 - `Status`: trạng thái của invoice, gồm có: `Draft`, `Paid`, `Unpaid`, `Overdue`, `Void`. Nhưng thường chỉ dùng `Paid` và `Unpaid`
 - `Paid at`: thời gian khách hành thanh toán
 - `Pair status`: trạng thái của invoice cho việc maping với đơn hàng, gồm có: `Paired`, `Unpaired`, `Ignored`
-- `EV ID`: id của invoice trên Envoice
+- `EV ID`: id của invoice trên Envoireace

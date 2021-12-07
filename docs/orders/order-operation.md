@@ -76,3 +76,11 @@ Bước này dùng để import thông tin về tracking của từng sản ph�
 - `*Tracking code`: mã tracking
 - `*Delivery service`: tên dịch vụ vận chuyển
 - `*Tracking web`: tên của tracking service (chú ý nhập đúng như trong setup)
+
+::: warning
+Mã đơn hàng và sku cần phải đúng với dữ liệu trên portal. 
+
+Các cột có dấu * ở đầu là `required`.
+
+Lần import sau có thể overwrite import trước (cho cùng 1 line item).
+:::
