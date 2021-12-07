@@ -27,7 +27,12 @@ module.exports = {
                     'invoice-functions.md'
                 ])
             },
-
+            {
+                text: 'Background jobs',
+                children: prefix('background-jobs', [
+                    'background-jobs.md',
+                ])
+            },
         ],
     }
 }
