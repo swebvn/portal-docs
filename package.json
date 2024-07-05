@@ -1,15 +1,14 @@
 {
-    "name": "portal-docs",
-    "version": "1.0.0",
-    "main": "index.js",
-    "license": "MIT",
-    "scripts": {
-        "dev": "vuepress dev docs",
-        "build": "vuepress build docs"
-    },
-    "devDependencies": {
-        "@vuepress/bundler-vite": "2.0.0-rc.14",
-        "@vuepress/theme-default": "2.0.0-rc.37",
-        "vuepress": "2.0.0-rc.14"
-    }
+  "name": "portal-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.2.3"
+  }
 }
