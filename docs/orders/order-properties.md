@@ -86,7 +86,7 @@ Danh sách các sản phẩm trong đơn hàng.
 
 ## Invoice
 
-Nếu đơn hành thanh toán trả sau, thông tin invoice của đơn hàng sẽ hiện ở section này. Xem thêm tại [Invoice](/invoices/invoice-properties.md).
+Nếu đơn hành thanh toán trả sau, thông tin invoice của đơn hàng sẽ hiện ở section này. Xem thêm tại [Invoice](/invoices/invoice-properties).
 
 
 ##  Statuses
