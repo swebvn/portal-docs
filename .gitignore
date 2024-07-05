@@ -4,3 +4,4 @@ node_modules
 .gitig
 .DS_Store
 dist
+/.idea

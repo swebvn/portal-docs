@@ -28,6 +28,12 @@ module.exports = {
                 ])
             },
             {
+                text: 'Coupons',
+                children: prefix('coupons', [
+                    'manage-woo-coupons.md'
+                ])
+            },
+            {
                 text: 'Background jobs',
                 children: prefix('background-jobs', [
                     'background-jobs.md',
