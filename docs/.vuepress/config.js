@@ -1,7 +1,15 @@
-module.exports = {
+import { defaultTheme } from '@vuepress/theme-default'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defineUserConfig } from 'vuepress'
+
+export default defineUserConfig({
     title: 'Portal docs',
     description: 'Portal documentation about .......',
-    themeConfig: {
+    bundler: viteBundler({
+        viteOptions: {},
+        vuePluginOptions: {},
+    }),
+    theme: defaultTheme({
         sidebar: [
             {
                 text: 'Setup',
@@ -39,9 +47,9 @@ module.exports = {
                     'background-jobs.md',
                 ])
             },
-        ],
-    }
-}
+        ]
+    }),
+})
 
 function prefix(prefix, children) {
     return children.map((child) => `/${prefix}/${child}`)
