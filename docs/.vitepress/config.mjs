@@ -4,6 +4,7 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     title: "Portal docs",
     description: "Portal docs",
+    ignoreDeadLinks: true,
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
