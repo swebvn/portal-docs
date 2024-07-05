@@ -5,5 +5,5 @@ node_modules
 .DS_Store
 dist
 /.idea
-/docs/.vitepress
-!/docs/.vitepress/config.mjs
+/.vitepress
+!/.vitepress/config.mjs
